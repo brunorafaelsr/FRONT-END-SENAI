@@ -1,11 +1,11 @@
-Algoritmo "Material aula 1"
-// Disciplina   : [LÛgica de ProgramaÁ„o]
+Algoritmo "Material aula 3"
+// Disciplina   : [L√≥gica de Programa√ß√£o]
 // Professor   : Victor
-// DescriÁ„o   : AULA 3
+// Descri√ß√£o   : AULA 3
 // Autor(a)    : Nome do(a) aluno(a) Bruno Rafael SR
 // Data atual  : 08/05/2025
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 // tipos primitivos
 // caractere, inteiro , real , logico
 nome : caractere
@@ -17,11 +17,11 @@ certificacao_da_aws : inteiro
 
 
 // regras variaveis
-// 1 - n„o pode comeÁar com numero
-// 2 - n„o pode palavra reservada
-// 3 - n„o pode caractere especial (Á, @, $...)
-// 4 - n„o pode acentuaÁ„o
-// 5 - n„o pode espaÁo
+// 1 - n√£o pode come√ßar com numero
+// 2 - n√£o pode palavra reservada
+// 3 - n√£o pode caractere especial (√ß, @, $...)
+// 4 - n√£o pode acentua√ß√£o
+// 5 - n√£o pode espa√ßo
 // camel case - umaPalavraComposta (Camelo)
 // snake case - uma_palavra_composta (cobra)
 // dica - coloque as variaveis de acordo com a sua funcionalidade
@@ -31,16 +31,16 @@ certificacao_da_aws : inteiro
 
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 // palavras azuis - dedicadas (comandos)
 // palavras vermelhas - textos
 // a letra l - line break (significa quebra de linha)
-// escreval - comando de saÌda
+// escreval - comando de sa√≠da
 // leia - entrada
 
-escreval ("Ol· mundo!")
-escreval ("estou estudando programaÁ„o")
+escreval ("Ol√° mundo!")
+escreval ("estou estudando programa√ß√£o")
 escreval ("Digite seu nome")
 escreval ("---------------------")
 leia (nome)
@@ -48,22 +48,22 @@ escreva("seja bem vindo (a) ")
 escreval (nome)
 escreval ("---------------------")
 // Areas das variaveis de memoria (globais e locais)
-// variavel - "gaveta de informaÁıes"
+// variavel - "gaveta de informa√ß√µes"
 // se colocada no leia, guarda na gaveta
-// se colocada no escreva, abre a gaveta e vÍ o que
+// se colocada no escreva, abre a gaveta e v√™ o que
 // foi guardado
 
 escreval ("Digite um numero:")
 leia(num1)
-escreval ("O numero antecessor È:" ,num1-1)
+escreval ("O numero antecessor √©:" ,num1-1)
 
 
 //ATIVIDADE: Escreva um algoritimo para ler um valor e escrever seu antecessor
-// escreval ("digite um numero:") aqui a frase aparecer· e vc pode
-// Digitar qualquer valor e dar ENTER, a mensagem de retorno aparecer·
-// use leia(num1) e escreval ("o numero antecessor È: ,num1-1)
-// OBS: use sempre um espaÁo e virgula e dÍ um comando por exemplo de
-// subtraÁ„o, adiÁ„o etc..., em quest„o de calculo ou outras aÁıes
-// o computador entende faÁa isso ("frase" e isso ,num1-1)
+// escreval ("digite um numero:") aqui a frase aparecer√° e vc pode
+// Digitar qualquer valor e dar ENTER, a mensagem de retorno aparecer√°
+// use leia(num1) e escreval ("o numero antecessor √©: ,num1-1)
+// OBS: use sempre um espa√ßo e virgula e d√™ um comando por exemplo de
+// subtra√ß√£o, adi√ß√£o etc..., em quest√£o de calculo ou outras a√ß√µes
+// o computador entende fa√ßa isso ("frase" e isso ,num1-1)
 // Bruno Rafael Silva Ribeiro FRONT-END
 Fimalgoritmo
