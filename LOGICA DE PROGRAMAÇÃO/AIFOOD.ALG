@@ -7,38 +7,57 @@ Algoritmo "AIFood"
 // Data atual  : 12/05/2025
 Var
 opcao : inteiro
-
-
-
-
+adicionar : logico
+adicionarPergunta : caractere
+valorTotal : real
 Inicio
-escreval("************")
-escreval("*****Seja Bem Vindo*****")
-escreval("************")
-escreval("1) PIZZA - R$ 68")
-escreval("2) SUCO E REFRI - R$ 10")
-escreval("3) CREPE - R$ 17.99")
-escreval("4) LASANHA - R$ 49.50")
-escreval("5) CANCELAR")
-escreval("6) FINALIZAR")
+adicionar <- verdadeiro
+ procedimento adicionarValor (valor : real)
+ inicio
+ valorTotal <- valorTotal + valor
+   escreval("Item adicionado com sucesso!")
+   escreval("Valor total: R$ " ,valorTotal)
+ fimProcedimento
+enquanto (adicionar = verdadeiro) faca
+limpaTela
+ escreval("************")
+ escreval("*****Seja Bem Vindo*****")
+ escreval("************")
+ escreval("1) PIZZA - R$ 68")
+ escreval("2) SUCO E REFRI - R$ 10")
+ escreval("3) CREPE - R$ 17.99")
+ escreval("4) LASANHA - R$ 49.50")
+ escreval("5) CANCELAR")
+ escreval("6) FINALIZAR")
 
 escreval("Escolha uma opção: ")
 leia(opcao)
 
 escolha (opcao)
  caso 1
- escreval("PIZZA")
+   adicionarValor(68)
+   escreval("PIZZA")
  caso 2
- escreval("SUCO E REFRI")
+ adicionarValor(10)
+   escreval("SUCO E REFRI")
  caso 3
- escreval("CREPE")
+ adicionarValor(17.99)
+   escreval("CREPE")
  caso 4
- escreval("LASANHA")
+ adicionarValor(49.50)
+   escreval("LASANHA")
  outrocaso
- escreval("NÃO VÁLIDO")
+   escreval("NÃO VÁLIDO")
  
-fimEscolha
+ fimEscolha
+ 
+ escreval("Deseja adicionar algo a mais?  s/n")
+ leia(adicionarPergunta)
+ se (adicionarPergunta = "n") entao
+     adicionar <- falso
+fimSe
+fimEnquanto
 
-
-
+limpaTela
+escreval("Total da compra é de : R$ ",valorTotal)
 Fimalgoritmo
